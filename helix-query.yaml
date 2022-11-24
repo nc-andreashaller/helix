@@ -14,7 +14,7 @@ indices:
         value: attribute(el, "content")
       divs:
         select: div
-        value: el
+        values: innerHTML(el)
       image:
         select: head > meta[property="og:image"]
         value: match(attribute(el, "content"), "https:\/\/[^/]+(/.*)")
