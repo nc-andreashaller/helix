@@ -1,0 +1,11 @@
+{
+  "project": "Sidekick config testing",
+  "host": "www.example.org",
+  "plugins": [
+    {
+      "id": "foo",
+      "title": "Foo",
+      "event": "foo"
+    }
+  ]
+}
