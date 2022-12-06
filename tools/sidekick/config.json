@@ -8,7 +8,7 @@
       "event": "foo"
     },
     {
-      "id": "Publish",
+      "id": "publish",
       "title": "custom publish",
       "event": "custpub"
     }
