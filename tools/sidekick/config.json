@@ -6,6 +6,11 @@
       "id": "foo",
       "title": "Foo",
       "event": "foo"
+    },
+    {
+      "id": "Publish",
+      "title": "custom publish",
+      "event": "custpub"
     }
   ]
 }
