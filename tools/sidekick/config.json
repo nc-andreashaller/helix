@@ -1,6 +1,14 @@
 {
   "project": "Sidekick config testing",
-  "host": "www.example.org",
+  "host": "main--helix--nc-andreashaller.hlx.live",
+  "syncEventHandling": {
+    "published": [ 
+      {
+        "event": "search-ingest-triggered",
+        "timeout": 1000,
+      }
+    ]
+  },
   "plugins": [
     {
       "id": "foo",
