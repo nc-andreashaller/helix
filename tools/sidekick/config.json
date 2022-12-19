@@ -14,11 +14,6 @@
       "id": "foo",
       "title": "Foo",
       "event": "foo"
-    },
-    {
-      "id": "publish",
-      "title": "custom publish",
-      "event": "custpub"
     }
   ]
 }
