@@ -24,10 +24,21 @@ indices:
       tags:
         select: head > meta[property="article:tag"]
         values: attribute(el, "content")
+      test:
+        select: head > meta[property="article:tag"]
+        values: attribute(el, "content")
   foo:
     include:
       - /**
     target: /foo.json
+    properties:
+      lastModified:
+        select: none
+        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
+  bar:
+    include:
+      - /bar/**
+    target: /bar/query-index.json
     properties:
       lastModified:
         select: none
