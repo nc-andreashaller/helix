@@ -11,8 +11,8 @@
   },
   "plugins": [
     {
-      "id": "foo",
-      "title": "Foo",
+      "id": "publish",
+      "title": "Foo Pub",
       "event": "foo"
     }
   ]
