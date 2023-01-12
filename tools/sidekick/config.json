@@ -12,8 +12,12 @@
   "plugins": [
     {
       "id": "publish",
-      "title": "Foo Pub",
-      "event": "foo"
+      "excludePaths": "/*"
+    },
+    {
+      "id": "cn-publish",
+      "title": "CN Publish",
+      "event": "cn-publish"
     }
   ]
 }
