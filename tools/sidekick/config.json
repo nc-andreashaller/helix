@@ -12,12 +12,12 @@
   "plugins": [
     {
       "id": "publish",
-      "excludePaths": ["/**"]
+      "event": "cn-publish"
     },
     {
-      "id": "cn-publish",
-      "title": "CN Publish",
-      "event": "cn-publish"
+      "id": "cn-search-reindex",
+      "title": "Search re-index",
+      "event": "cn-search-reindex"
     }
   ]
 }
