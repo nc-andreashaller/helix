@@ -9,6 +9,10 @@
       }
     ]
   },
+  "searchApiEndpoints": {
+    "ingest": "https://search.netcentric.biz/prod/ingest?path={{path}}",
+    "delete": "https://search.netcentric.biz/prod/delete?path={{path}}"
+  },
   "plugins": [
     {
       "id": "publish",
